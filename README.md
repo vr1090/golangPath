@@ -1,0 +1,2 @@
+# golangPath
+repo for golang
