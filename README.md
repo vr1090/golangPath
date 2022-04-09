@@ -41,6 +41,15 @@ boolean:
 
 strings:
 - immutable sequence of bytes
-- 
+- sharing underlying byte array
+- backstring, no esacape sequence are processed
+- unicode code point, in go it is called rune
 
+rune:
+- utf32, or utf-8
+- most ascii can be form with 8 bit
+- 1 until 4 bytes, but ascii only need 1 bytes
+- as whole string itu ok, tapi kalau butuh karakter, perlu pakai bantuan
+- unicode/utf8
+- replacement charakter, ini yg lambang tanda tanya.
 
