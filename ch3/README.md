@@ -61,5 +61,9 @@ bytes buffer:
 
 constant:
 - boolean, string,number
-- 
+- this is compile time
+- time.Duration itu int64
+- iota .. constant generator
+- iota always increment by 1
+
 
