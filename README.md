@@ -23,6 +23,24 @@ unary:
 - & and
 - | or
 - ^ XOR
+
+integer:
+- 0123 ... as octal
+- 0x231 as hex
+- radix format: %d, %o, %x: biasa, octal, hex
+
+rune .. written in '%c' or %q
+
+floating point number:
+- float32 and float64
+- math package.. maxFloat32, maxFloat64
+- %e for exponent, %f for floating
+
+boolean:
+- short circuit behaviour
+
+strings:
+- immutable sequence of bytes
 - 
 
 
