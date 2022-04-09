@@ -66,4 +66,6 @@ constant:
 - iota .. constant generator
 - iota always increment by 1
 
+the flavor of constant, determine the untype variable
+
 
