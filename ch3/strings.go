@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+notice that strings is immutable
+**/
 func main(){
 	s := "left foot"
 	t:= s
