@@ -14,3 +14,6 @@ struct embeding:
 - struct literal, harus di isi barengan semua
 - composition, parent got all
 
+## json
+- encoding/json, encoding/xml
+- 
